@@ -34,3 +34,8 @@ Make a UI component according to the [name] and [summary] provided, following th
 ## Previews
 
 - Add the component to the `@src/pages/preview` to test the component.
+
+## Review the work
+
+- **Invoke the ui-ux-reviewer subagent** to review your work and implement suggestions where needed
+- Iterate on the review process when needed
