@@ -16,6 +16,7 @@ No test framework is configured.
 ## Stack notes
 
 - React 19 + TypeScript, scaffolded from the Vite template. Very recent majors are in use (TypeScript ~6.0, Vite 8, ESLint 10, `@vitejs/plugin-react` 6), so don't "fix" config or syntax based on older-version docs.
+- When adding a new library or framework, or building a feature with one, check current docs with the context7 MCP server (`resolve-library-id`, then `query-docs`) before writing code.
 - The React Compiler is on, through `@rolldown/plugin-babel` with `reactCompilerPreset()` in `vite.config.ts`. It slows dev and build, and it means manual `useMemo`/`useCallback` is usually unnecessary.
 
 ## Structure
