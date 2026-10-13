@@ -1,0 +1,7 @@
+{
+  "enabledMcpjsonServers": [
+    "claude-code-docs",
+    "playwright",
+    "sentry"
+  ]
+}
