@@ -24,6 +24,7 @@ No test framework is configured.
 - `src/components/` holds reusable UI components, each with a co-located `.css` file.
 - `src/pages/` holds one component per page (with its co-located `.css`). `src/App.tsx` is only the shell: `ThemeToggle`, `Header`, and the router `<Routes>`, with `BrowserRouter` in `main.tsx`.
 - **Always register every new page in `src/routes.tsx`.** Whenever you create a page in `src/pages/`, add one entry (`path`, `label`, `element`) to the `routes` array in the same change. That array is the single source of truth: it generates both the `<Route>`s in `App.tsx` and the header links in `Header.tsx`, so an unregistered page is unreachable and missing from the header. Don't add routes or header links anywhere else.
+- Card-like blocks (icon, title, description, list of links) use `src/components/LinkCard.tsx`; reuse it instead of copying the markup.
 - `src/index.css` holds global styles and CSS variables for the light and dark themes.
 - `index.html` has an inline script that applies the saved theme before React loads.
 
