@@ -1,6 +1,7 @@
 import type { ReactElement } from 'react'
 import Home from './pages/Home'
 import About from './pages/About'
+import Preview from './pages/Preview'
 
 interface AppRoute {
   path: string
@@ -13,4 +14,5 @@ interface AppRoute {
 export const routes: AppRoute[] = [
   { path: '/', label: 'Home', element: <Home /> },
   { path: '/about', label: 'About', element: <About /> },
+  { path: '/preview', label: 'Preview', element: <Preview /> },
 ]
