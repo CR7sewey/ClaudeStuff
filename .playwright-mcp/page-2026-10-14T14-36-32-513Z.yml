@@ -1,0 +1,275 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e4]:
+    - link [ref=f6e5] [cursor=pointer]:
+      - /url: /
+      - img "LeftClick" [ref=f6e6]
+    - button "Menu" [ref=f6e7] [cursor=pointer]
+  - generic:
+    - navigation:
+      - link "Services":
+        - /url: /services
+      - link "About":
+        - /url: /about
+      - link "Let's talk":
+        - /url: https://cal.com/codymclean/30min?source=website
+  - main [ref=f6e11]:
+    - generic [ref=f6e14]:
+      - heading "The definitive AI growth partner for fast-moving B2B companies." [level=1] [ref=f6e16]
+      - paragraph [ref=f6e17]: AI systems that generate leads, close deals, and scale operations. Built by a team that has done it across 20+ industries.
+      - generic [ref=f6e18]:
+        - generic [ref=f6e19]:
+          - generic [ref=f6e20]: $10M+
+          - generic [ref=f6e21]: revenue generated
+        - generic [ref=f6e22]:
+          - generic [ref=f6e23]: 20+
+          - generic [ref=f6e24]: industries served
+        - generic [ref=f6e25]:
+          - generic [ref=f6e26]: 1M+
+          - generic [ref=f6e27]: followers worldwide
+        - generic [ref=f6e28]:
+          - generic [ref=f6e29]: 7 yrs
+          - generic [ref=f6e30]: production AI
+      - link "Let's talk Let's talk" [ref=f6e32] [cursor=pointer]:
+        - /url: https://cal.com/codymclean/30min?source=website
+        - generic [ref=f6e33]:
+          - generic [ref=f6e34]: Let's talk
+          - generic [ref=f6e35]: Let's talk
+    - generic [ref=f6e37]:
+      - generic [ref=f6e38]: Nick & his team have worked with
+      - generic [ref=f6e41]:
+        - generic [ref=f6e42]: Anthropic
+        - generic [ref=f6e43]: MrBeast
+        - generic [ref=f6e44]: Notion
+        - generic [ref=f6e45]: Wix
+        - generic [ref=f6e46]: HeyGen
+        - generic [ref=f6e47]: VEED
+        - generic [ref=f6e48]: Lightricks
+        - generic [ref=f6e49]: Durable
+        - generic [ref=f6e50]: Anthropic
+        - generic [ref=f6e51]: MrBeast
+        - generic [ref=f6e52]: Notion
+        - generic [ref=f6e53]: Wix
+        - generic [ref=f6e54]: HeyGen
+        - generic [ref=f6e55]: VEED
+        - generic [ref=f6e56]: Lightricks
+        - generic [ref=f6e57]: Durable
+        - generic [ref=f6e58]: Anthropic
+        - generic [ref=f6e59]: MrBeast
+        - generic [ref=f6e60]: Notion
+        - generic [ref=f6e61]: Wix
+        - generic [ref=f6e62]: HeyGen
+        - generic [ref=f6e63]: VEED
+        - generic [ref=f6e64]: Lightricks
+        - generic [ref=f6e65]: Durable
+        - generic [ref=f6e66]: Anthropic
+        - generic [ref=f6e67]: MrBeast
+        - generic [ref=f6e68]: Notion
+        - generic [ref=f6e69]: Wix
+        - generic [ref=f6e70]: HeyGen
+        - generic [ref=f6e71]: VEED
+        - generic [ref=f6e72]: Lightricks
+        - generic [ref=f6e73]: Durable
+    - generic [ref=f6e77]:
+      - generic [ref=f6e78]:
+        - heading "$10M+ in revenue generated for clients." [level=2] [ref=f6e79]
+        - paragraph [ref=f6e80]: Nick & his team scaled Dental Media Corp from a regional shop to $2M/yr, built 1SecondCopy to $90K/mo with just 2 operators, and grew Maker School to $250K/mo using the same automations we sell to clients. We dive deep into the heart of your business to fix real, practical problems; actual ways to drive revenue & grow.
+        - link "Let's talk Let's talk" [ref=f6e82] [cursor=pointer]:
+          - /url: https://cal.com/codymclean/30min?source=website
+          - generic [ref=f6e83]:
+            - generic [ref=f6e84]: Let's talk
+            - generic [ref=f6e85]: Let's talk
+      - img "Nick Saraev at Skool Games with Alex Hormozi" [ref=f6e88]
+    - generic [ref=f6e91]:
+      - generic [ref=f6e92]:
+        - heading "Some of our work." [level=2] [ref=f6e93]
+        - paragraph [ref=f6e94]:
+          - text: Real results from real engagements. Every project below was built, deployed, and managed by our team.
+          - link "See all services & industries →" [ref=f6e95] [cursor=pointer]:
+            - /url: /services
+      - generic [ref=f6e96]:
+        - 'link "LeftClick case study: 1SecondCopy 1SecondCopy $90,000/m, 2 operators." [ref=f6e97] [cursor=pointer]':
+          - /url: /case-studies/1secondcopy
+          - 'img "LeftClick case study: 1SecondCopy" [ref=f6e99]'
+          - generic [ref=f6e101]:
+            - generic [ref=f6e102]: 1SecondCopy
+            - generic [ref=f6e103]: $90,000/m, 2 operators.
+        - 'link "LeftClick case study: Dental Media Corp Dental Media Corp Regional PPC shop to $2M/yr revenue." [ref=f6e104] [cursor=pointer]':
+          - /url: /case-studies/dental-media-corp
+          - 'img "LeftClick case study: Dental Media Corp" [ref=f6e106]'
+          - generic [ref=f6e108]:
+            - generic [ref=f6e109]: Dental Media Corp
+            - generic [ref=f6e110]: Regional PPC shop to $2M/yr revenue.
+        - 'link "LeftClick case study: XWECAN XWECAN Featured in Forbes, WSJ, Fortune, BBC & more." [ref=f6e111] [cursor=pointer]':
+          - /url: /case-studies/xwecan
+          - 'img "LeftClick case study: XWECAN" [ref=f6e113]'
+          - generic [ref=f6e115]:
+            - generic [ref=f6e116]: XWECAN
+            - generic [ref=f6e117]: Featured in Forbes, WSJ, Fortune, BBC & more.
+    - generic [ref=f6e120]:
+      - generic [ref=f6e121]:
+        - heading "Building with AI since 2019." [level=2] [ref=f6e122]
+        - paragraph [ref=f6e123]: Nick was early to spot the business utility of generative AI. In 2019, well before ChatGPT, he started building with early image and language models to create one of the largest content agencies in Canada.
+      - generic [ref=f6e124]:
+        - generic [ref=f6e125]:
+          - img "Nick Saraev" [ref=f6e127]
+          - generic [ref=f6e128]:
+            - heading "Nick Saraev" [level=3] [ref=f6e129]
+            - generic [ref=f6e130]: CEO / Talent
+            - paragraph [ref=f6e131]:
+              - text: Nick runs a 400K-subscriber YouTube channel and
+              - link "Maker School" [ref=f6e132] [cursor=pointer]:
+                - /url: https://www.skool.com/makerschool
+              - text: ", the #1 AI community on Skool ($250K/mo, 10,000+ graduates). He has generated over $10M in revenue for clients across 20+ industries using proprietary AI systems.His public track record and exposure to top-tier talent lets him source exceptional, senior-level development in days, not months."
+        - generic [ref=f6e133]:
+          - img "Cody McLean" [ref=f6e135]
+          - generic [ref=f6e136]:
+            - heading "Cody McLean" [level=3] [ref=f6e137]
+            - generic [ref=f6e138]: Head of AI Solutions
+            - paragraph [ref=f6e139]: Cody spent 8 years leading Hill&Foster, designing and shipping software for 200+ clients, including the Government of California, Lululemon, and QubeIoT. His work is relied on by millions daily. At LeftClick, he applies that full-stack expertise to architecting AI-driven automations, intelligent workflows, and end-to-end systems that cut overhead and accelerate growth for every client we take on.
+        - generic [ref=f6e140]:
+          - img "George Dinu" [ref=f6e142]
+          - generic [ref=f6e143]:
+            - heading "George Dinu" [level=3] [ref=f6e144]
+            - generic [ref=f6e145]: Head of Delivery
+            - paragraph [ref=f6e146]: George owns the end-to-end technical execution of every client engagement. He architects backend systems, automation pipelines, and AI infrastructure, turning strategic roadmaps into production-grade solutions that run reliably at scale. With deep expertise across cloud architecture, data engineering, and systems integration, George ensures that what we promise in the boardroom actually ships. Tested, documented, and built to last.
+    - generic [ref=f6e149]:
+      - heading "We don't just advise. We build." [level=2] [ref=f6e151]
+      - generic [ref=f6e152]:
+        - generic [ref=f6e153]:
+          - heading "Building with AI since 2019" [level=3] [ref=f6e154]
+          - paragraph [ref=f6e155]: We were building with early image and language models (like GPT-2) before ChatGPT existed, and have seven years of production AI systems under our belts.
+        - generic [ref=f6e156]:
+          - heading "Fixed price, no surprises" [level=3] [ref=f6e157]
+          - paragraph [ref=f6e158]: Every engagement gets a clear scope, timeline, and fixed price. No hourly billing, no scope creep, no mystery invoices.
+        - generic [ref=f6e159]:
+          - heading "Public track record" [level=3] [ref=f6e160]
+          - paragraph [ref=f6e161]: Nick has built in public since 2024, and teaches AI to over 1M followers worldwide. Every system we sell has been demonstrated, explained, and stress-tested in public, hundreds of thousands of times.
+        - generic [ref=f6e162]:
+          - heading "We use our own systems" [level=3] [ref=f6e163]
+          - paragraph [ref=f6e164]: All of our companies and products (LeftClick, Maker School, DMC, Clairvo) use the same automations we help you install. Our systems work because we depend on them, too.
+    - generic [ref=f6e167]:
+      - generic [ref=f6e168]:
+        - heading "And we teach, too." [level=2] [ref=f6e169]
+        - paragraph [ref=f6e170]: Nick's Claude Code course has over 1.5M views on YouTube and 20M+ views across X and other platforms. His content shows teams how to implement AI into deliverables for more scale at less cost, and we run workshops all over the world educating midmarket and enterprise organizations on leveraging AI.
+        - generic [ref=f6e171]:
+          - generic [ref=f6e172]:
+            - generic [ref=f6e173]: 20M+
+            - generic [ref=f6e174]: views across platforms
+          - generic [ref=f6e175]:
+            - generic [ref=f6e176]: 1.5M+
+            - generic [ref=f6e177]: YouTube views
+          - generic [ref=f6e178]:
+            - generic [ref=f6e179]: 400K+
+            - generic [ref=f6e180]: subscribers
+        - link "Book a workshop Book a workshop" [ref=f6e182] [cursor=pointer]:
+          - /url: https://cal.com/codymclean/30min?source=website
+          - generic [ref=f6e183]:
+            - generic [ref=f6e184]: Book a workshop
+            - generic [ref=f6e185]: Book a workshop
+      - iframe [ref=f6e189]
+    - generic [ref=f6e192]:
+      - heading "From first call to launch." [level=2] [ref=f6e194]
+      - generic [ref=f6e195]:
+        - generic [ref=f6e196]:
+          - generic [ref=f6e197]: Step 01
+          - heading "Funnel map audit" [level=3] [ref=f6e198]
+          - paragraph [ref=f6e199]: A free 30-minute session where we audit your funnel, identify bottlenecks, and map out exactly where AI can move the needle.
+        - generic [ref=f6e200]:
+          - generic [ref=f6e201]: Step 02
+          - heading "Proposal" [level=3] [ref=f6e202]
+          - paragraph [ref=f6e203]: We deliver a clear scope, timeline, and fixed price. No surprises, no hourly billing. You know exactly what you're getting.
+        - generic [ref=f6e204]:
+          - generic [ref=f6e205]: Step 03
+          - heading "Project" [level=3] [ref=f6e206]
+          - paragraph [ref=f6e207]: Our team builds, tests, and deploys your systems. You get weekly updates and a working product, not a deck full of promises.
+        - generic [ref=f6e208]:
+          - generic [ref=f6e209]: Step 04
+          - heading "Ongoing management" [level=3] [ref=f6e210]
+          - paragraph [ref=f6e211]: Optional retainer for monitoring, optimization, and iteration. Most clients see compounding returns over time.
+    - generic [ref=f6e214]:
+      - heading "Ready to scale with AI?" [level=2] [ref=f6e215]
+      - paragraph [ref=f6e216]: Book a free 30-minute growth mapping call. We'll audit your funnel, find the bottlenecks, and show you exactly where AI moves the needle.
+      - paragraph [ref=f6e217]: Engagements typically start at $5K. Most projects range $10K-$50K.
+      - link "Book a free growth call Book a free growth call" [ref=f6e219] [cursor=pointer]:
+        - /url: https://cal.com/codymclean/30min?source=website
+        - generic [ref=f6e220]:
+          - generic [ref=f6e221]: Book a free growth call
+          - generic [ref=f6e222]: Book a free growth call
+  - generic [ref=f6e226]:
+    - generic [ref=f6e227]:
+      - generic [ref=f6e228]:
+        - paragraph [ref=f6e229]: Work with us
+        - paragraph [ref=f6e230]: Start with a free, thirty-minute growth mapping call.
+        - link "Let's talk Let's talk" [ref=f6e232] [cursor=pointer]:
+          - /url: https://cal.com/codymclean/30min?source=website
+          - generic [ref=f6e233]:
+            - generic [ref=f6e234]: Let's talk
+            - generic [ref=f6e235]: Let's talk
+      - generic [ref=f6e237]:
+        - generic [ref=f6e238]:
+          - paragraph [ref=f6e239]: Services
+          - link "AI Automation" [ref=f6e240] [cursor=pointer]:
+            - /url: /ai-automation
+          - link "AI Lead Generation" [ref=f6e241] [cursor=pointer]:
+            - /url: /ai-lead-generation
+          - link "Custom AI Agents" [ref=f6e242] [cursor=pointer]:
+            - /url: /ai-agents
+          - link "CRM & Sales Automation" [ref=f6e243] [cursor=pointer]:
+            - /url: /crm-sales-automation
+          - link "AI Workshops" [ref=f6e244] [cursor=pointer]:
+            - /url: /workshops
+          - link "All Services" [ref=f6e245] [cursor=pointer]:
+            - /url: /services
+        - generic [ref=f6e246]:
+          - paragraph [ref=f6e247]: Company
+          - link "About" [ref=f6e248] [cursor=pointer]:
+            - /url: /about
+          - link "Nick Saraev" [ref=f6e249] [cursor=pointer]:
+            - /url: /about-nick-saraev
+          - link "Case Studies" [ref=f6e250] [cursor=pointer]:
+            - /url: /case-studies
+          - link "Industries" [ref=f6e251] [cursor=pointer]:
+            - /url: /industries
+          - link "Careers" [ref=f6e252] [cursor=pointer]:
+            - /url: /careers
+          - link "Press" [ref=f6e253] [cursor=pointer]:
+            - /url: /press
+        - generic [ref=f6e254]:
+          - paragraph [ref=f6e255]: Resources
+          - link "What is LeftClick?" [ref=f6e256] [cursor=pointer]:
+            - /url: /what-is-leftclick
+          - link "Pricing" [ref=f6e257] [cursor=pointer]:
+            - /url: /pricing
+          - link "Our Process" [ref=f6e258] [cursor=pointer]:
+            - /url: /process
+          - link "FAQ" [ref=f6e259] [cursor=pointer]:
+            - /url: /faq
+          - link "Results & Reviews" [ref=f6e260] [cursor=pointer]:
+            - /url: /reviews
+          - link "Contact" [ref=f6e261] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f6e262]:
+          - paragraph [ref=f6e263]: Connect
+          - link "YouTube" [ref=f6e264] [cursor=pointer]:
+            - /url: https://www.youtube.com/@nicksaraev
+          - link "LinkedIn" [ref=f6e265] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/leftclickhq
+          - link "Instagram" [ref=f6e266] [cursor=pointer]:
+            - /url: https://www.instagram.com/nicksaraev/
+          - link "X / Twitter" [ref=f6e267] [cursor=pointer]:
+            - /url: https://x.com/nicksaraev
+          - link "Maker School" [ref=f6e268] [cursor=pointer]:
+            - /url: https://www.skool.com/makerschool
+          - link "Free Courses" [ref=f6e269] [cursor=pointer]:
+            - /url: https://www.youtube.com/playlist?list=PLSbQllRagIuR2C9Aiy_-RtUEC9Q3NbKaB
+    - generic [ref=f6e271]:
+      - link [ref=f6e273] [cursor=pointer]:
+        - /url: /
+        - img "LeftClick" [ref=f6e274]
+      - generic [ref=f6e276]:
+        - link "Privacy Policy" [ref=f6e277] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=f6e278] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=f6e279]: © 2026 Nick Saraev Media LLC. All rights reserved.
+  - button "Toggle dark mode" [ref=f6e281] [cursor=pointer]
