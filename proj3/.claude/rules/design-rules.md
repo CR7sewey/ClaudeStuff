@@ -1,0 +1,5 @@
+- Do not add features or content not in the reference image
+- Match layout, spacing, typography, and color exactly to the reference image
+- If user provides style guide or brand assets, use them instead of placeholders
+- Keep code clean but don't over abstract or over-engineer. Avoid unnecessary complexity.
+- when comparing screenshots, be specific: "heading is 32px but reference shows ~24px", "card gap is 16px but should be 24px"

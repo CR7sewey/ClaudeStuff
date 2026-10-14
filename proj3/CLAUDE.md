@@ -1,5 +1,15 @@
 # CLAUDE.md — Frontend Website Rules
 
+Detailed rules live in `.claude/rules/`; this file holds the project-level essentials:
+
+- `.claude/rules/workflow.md`: the screenshot → compare → fix loop (server, Playwright screenshots, widths, scroll checks).
+- `.claude/rules/technical-defaults.md`: Tailwind CDN, placeholders, responsive defaults, typography, motion, depth.
+- `.claude/rules/design-rules.md`: matching a reference and how to phrase comparisons.
+
+## Always Do Last
+
+- **Invoke the `tell-me-time` agent** at the very end of every response, after all work for the prompt is finished, and show its one-line output (`Hello Miguel, the current time is HH:MM:SS WET|WEST (Lisbon).`) as the final line. Do this for every prompt, including questions and small edits.
+
 ## Always Do First
 
 - **Invoke the `frontend-design` skill** before writing any frontend code, every session, no exceptions.
@@ -7,33 +17,15 @@
 ## Reference Images
 
 - If a reference image is provided: match layout, spacing, typography, and color exactly. Swap in placeholder content (images via `https://placehold.co/`, generic copy). Do not improve or add to the design.
-- If no reference image: design from scratch with high craft (see guardrails below).
-- Screenshot your output, compare against reference, fix mismatches, re-screenshot. Do at least 2 comparison rounds. Stop only when no visible differences remain or user says so.
+- If the reference is a website the user points to, take its structure, copy, and styling cues; it does not need to be an exact clone unless the user asks for one.
+- Never size the page to the width of a reference screenshot; capture widths are incidental. Build responsively (see `technical-defaults.md`).
+- If no reference: design from scratch with high craft (see guardrails below).
+- Follow the loop in `workflow.md` after every visual change. Do not stop after one screenshot pass.
 
 ## Local Server
 
-- **Always serve on localhost** — never screenshot a `file:///` URL.
-- Start the dev server: `node serve.mjs` (serves the project root at `http://localhost:3000`)
-- `serve.mjs` lives in the project root. Start it in the background before taking any screenshots.
-- If the server is already running, do not start a second instance.
-
-## Screenshot Workflow
-
-- Puppeteer is installed at `C:/Users/nateh/AppData/Local/Temp/puppeteer-test/`. Chrome cache is at `C:/Users/nateh/.cache/puppeteer/`.
-- **Always screenshot from localhost:** `node screenshot.mjs http://localhost:3000`
-- Screenshots are saved automatically to `./temporary screenshots/screenshot-N.png` (auto-incremented, never overwritten).
-- Optional label suffix: `node screenshot.mjs http://localhost:3000 label` → saves as `screenshot-N-label.png`
-- `screenshot.mjs` lives in the project root. Use it as-is.
-- After screenshotting, read the PNG from `temporary screenshots/` with the Read tool — Claude can see and analyze the image directly.
-- When comparing, be specific: "heading is 32px but reference shows ~24px", "card gap is 16px but should be 24px"
-- Check: spacing/padding, font size/weight/line-height, colors (exact hex), alignment, border-radius, shadows, image sizing
-
-## Output Defaults
-
-- Single `index.html` file, all styles inline, unless user says otherwise
-- Tailwind CSS via CDN: `<script src="https://cdn.tailwindcss.com"></script>`
-- Placeholder images: `https://placehold.co/WIDTHxHEIGHT`
-- Mobile-first responsive
+- Always serve on localhost: `node serve.mjs` (serves the project root at `http://localhost:3000`). Never screenshot a `file:///` URL.
+- Start it in the background. If it is already running, do not start a second instance.
 
 ## Brand Assets
 
@@ -43,15 +35,15 @@
 
 ## Anti-Generic Guardrails
 
-- **Colors:** Never use default Tailwind palette (indigo-500, blue-600, etc.). Pick a custom brand color and derive from it.
-- **Shadows:** Never use flat `shadow-md`. Use layered, color-tinted shadows with low opacity.
-- **Typography:** Never use the same font for headings and body. Pair a display/serif with a clean sans. Apply tight tracking (`-0.03em`) on large headings, generous line-height (`1.7`) on body.
-- **Gradients:** Layer multiple radial gradients. Add grain/texture via SVG noise filter for depth.
+- **Colors:** Never use the default Tailwind palette (indigo-500, blue-600, etc.). Pick a custom brand color and derive from it.
+- **Shadows:** Never use a flat `shadow-md`. Use layered, low-opacity shadows.
+- **Typography:** Never use the same font for headings and body without distinct weights. Tight tracking (`-0.03em`) on large headings, line-height `1.7` on body.
+- **Gradients:** Layer multiple radial gradients. Add grain via an SVG noise filter for depth.
 - **Animations:** Only animate `transform` and `opacity`. Never `transition-all`. Use spring-style easing.
 - **Interactive states:** Every clickable element needs hover, focus-visible, and active states. No exceptions.
-- **Images:** Add a gradient overlay (`bg-gradient-to-t from-black/60`) and a color treatment layer with `mix-blend-multiply`.
-- **Spacing:** Use intentional, consistent spacing tokens — not random Tailwind steps.
-- **Depth:** Surfaces should have a layering system (base → elevated → floating), not all sit at the same z-plane.
+- **Images:** Light gradient overlay (`from-black/20`) and an optional low-opacity `mix-blend-multiply` color layer.
+- **Spacing:** Use intentional, consistent spacing tokens, not random Tailwind steps.
+- **Depth:** Surfaces use a layering system (base → elevated → floating), not one flat plane.
 
 ## Hard Rules
 
