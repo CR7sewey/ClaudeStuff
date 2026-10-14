@@ -1,0 +1,104 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "A Acctual" [ref=f1e5] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f1e6]: A
+          - text: Acctual
+        - button "Open menu" [ref=f1e7] [cursor=pointer]
+      - generic [ref=f1e10]:
+        - generic [ref=f1e11]: Used by 5,000+ businesses worldwide
+        - heading "Get paid on time" [level=1] [ref=f1e12]
+        - paragraph [ref=f1e13]: Send an invoice in seconds. Your clients pay how they want. You get paid direct to your bank account or wallet, with no monthly fee.
+        - link "Send my first invoice" [ref=f1e14] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=f1e15]:
+          - generic [ref=f1e16]:
+            - generic [ref=f1e17]: ▭
+            - text: Cards
+            - generic [ref=f1e18]: 2.7% + 0.3¢
+          - generic [ref=f1e19]:
+            - generic [ref=f1e20]: ⌂
+            - text: Bank transfer
+            - generic [ref=f1e21]: 1%
+      - img "Invoice preview" [ref=f1e23]
+  - main [ref=f1e26]:
+    - generic [ref=f1e27]:
+      - paragraph [ref=f1e28]: Used by 5,000+ businesses & freelancers
+      - generic [ref=f1e29]: UNDERSTRUCK
+    - generic [ref=f1e30]:
+      - generic "5 stars" [ref=f1e31]: ★★★★★
+      - blockquote [ref=f1e32]: “Acctual makes invoices so easy. One click and 30 minutes later we get paid!”
+      - paragraph [ref=f1e33]: Marcel Berger, Founder of Berger Studio
+    - generic [ref=f1e34]:
+      - paragraph [ref=f1e35]: Who is this for?
+      - heading "We designed an invoice that works harder for your business" [level=2] [ref=f1e36]
+      - list [ref=f1e37]:
+        - listitem [ref=f1e38]:
+          - generic [ref=f1e39]:
+            - generic [ref=f1e40]: ◔
+            - text: Freelancers
+          - paragraph [ref=f1e41]: Make more profit on every project and get paid faster with automated nudges and no subscription fees.
+        - listitem [ref=f1e42]:
+          - generic [ref=f1e43]:
+            - generic [ref=f1e44]: ◆
+            - text: Agencies
+          - paragraph [ref=f1e45]: Reclaim billable hours and shift your team’s focus from admin to growth with our accounting sync.
+        - listitem [ref=f1e46]:
+          - generic [ref=f1e47]:
+            - generic [ref=f1e48]: ✦
+            - text: Consultants
+          - paragraph [ref=f1e49]: Target high ticket clients thanks to improved cash flow and a professional payment experience.
+        - listitem [ref=f1e50]:
+          - generic [ref=f1e51]:
+            - generic [ref=f1e52]: ▣
+            - text: Contractors
+          - paragraph [ref=f1e53]: Get paid on the job and book bigger projects with increased working capital from our fast payments.
+        - listitem [ref=f1e54]:
+          - generic [ref=f1e55]:
+            - generic [ref=f1e56]: ◉
+            - text: eCommerce
+          - paragraph [ref=f1e57]: Fund your next inventory run free from frozen capital worries thanks to direct bank payments.
+        - listitem [ref=f1e58]:
+          - generic [ref=f1e59]:
+            - generic [ref=f1e60]: ◍
+            - text: Cross border
+          - paragraph [ref=f1e61]: Reach new markets and win global contracts with a faster strategy to capture local payments.
+    - generic [ref=f1e62]:
+      - heading "Accounting platforms are a slow, expensive way to invoice your clients" [level=2] [ref=f1e63]
+      - generic [ref=f1e64]:
+        - article [ref=f1e65]:
+          - paragraph [ref=f1e66]: Slow
+          - paragraph [ref=f1e67]: Your clients make more payment methods — but you need to send funds to your bank account or wallet.
+        - article [ref=f1e69]:
+          - paragraph [ref=f1e70]: Expensive
+          - paragraph [ref=f1e71]: You pay a monthly subscription for bloated accounting features that you don’t need, plus extra card fees on top.
+        - article [ref=f1e73]:
+          - paragraph [ref=f1e74]: Confusing
+          - paragraph [ref=f1e75]: You need a simple invoice solution — not a forced migration to another complex, expensive accounting platform.
+    - generic [ref=f1e77]:
+      - heading "Same day payments. No subscription." [level=2] [ref=f1e78]
+      - paragraph [ref=f1e79]: Acctual offers more payment methods and no monthly fees. Generate a recurring invoice and get paid directly to your bank account or wallet.
+      - list [ref=f1e80]:
+        - listitem [ref=f1e81]: The industry’s lowest transfer fees
+        - listitem [ref=f1e82]: Payment via card, bank transfer or stablecoin
+        - listitem [ref=f1e83]: Same day payments in your favorite currency
+        - listitem [ref=f1e84]: Direct payment to your bank account or wallet
+        - listitem [ref=f1e85]: Unlimited invoices and no subscription fees
+        - listitem [ref=f1e86]: Invoices sync with Xero and Quickbooks
+      - link "Create an invoice" [ref=f1e87] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f1e88]:
+      - heading "We designed a faster invoice experience with lower fees" [level=2] [ref=f1e89]
+      - heading "Create a beautiful invoice without hiring a professional designer" [level=3] [ref=f1e90]
+      - paragraph [ref=f1e91]: Your clients deserve a great payment experience. Acctual generates stunning, minimalist invoices that include your logo and client details in a few clicks. You can send as many invoices as you like. We’ll never charge a monthly subscription.
+      - figure "Harry Hanrahan, Designer" [ref=f1e92]:
+        - generic "5 stars" [ref=f1e93]: ★★★★★
+        - blockquote [ref=f1e94]: “I used to design each invoice in Figma. Now I can share a beautiful invoice with one click in Acctual.”
+      - heading "Send one payment link that offers every method and lowers your fees" [level=3] [ref=f1e96]
+      - paragraph [ref=f1e97]: You don’t need to juggle payment platforms. Our invoices include a secure link that gives your clients the freedom to pay with credit cards, bank transfers (ACH/SEPA) or stablecoins (USDC/USDT). Fees on bank transfers and stablecoins are only 1%.
+      - img "Payment link preview" [ref=f1e99]
+      - figure "Sam Miller, Founder of Kodo" [ref=f1e102]:
+        - generic "5 stars" [ref=f1e103]: ★★★★★
+        - blockquote [ref=f1e104]: “Our workflow is faster and more accurate thanks to Acctual. Now, even if customers switch from ACH to crypto.”

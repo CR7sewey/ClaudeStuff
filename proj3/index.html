@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acctual – Get paid on time</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: { extend: {
+    colors: {
+      ink: '#000000e6', mute: '#666', canvas: '#f7fafc', navy: '#004370',
+      sky: '#0098f2', pink: '#f200ca', violet: '#6c56fc', moss: '#5d9c06', coral: '#ff6363'
+    },
+    fontFamily: { display: ['"Bricolage Grotesque"', 'sans-serif'], body: ['Inter', 'sans-serif'] }
+  } }
+}
+</script>
+<style>
+  :root {
+    --ink: #000000e6; --mute: #666; --canvas: #f7fafc;
+    --sky: #0098f2; --pink: #f200ca; --violet: #6c56fc;
+    --sky-t: #0098f229; --pink-t: #f200c929; --violet-t: #6c55fc29;
+    --spring: cubic-bezier(.34, 1.56, .64, 1);
+  }
+  html { -webkit-font-smoothing: antialiased; }
+  body { background: var(--canvas); color: var(--ink); font-family: Inter, sans-serif; line-height: 1.7; }
+  h1, h2, h3 { font-family: "Bricolage Grotesque", sans-serif; letter-spacing: -0.03em; line-height: 1.1; }
+  .grain::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .35; mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.12'/%3E%3C/svg%3E");
+  }
+  .hero-bg {
+    background:
+      radial-gradient(60% 40% at 90% 0%, #0098f226, transparent 70%),
+      radial-gradient(50% 35% at 0% 30%, #f200c91a, transparent 70%),
+      radial-gradient(60% 40% at 80% 90%, #6c56fc1f, transparent 70%),
+      var(--canvas);
+  }
+  .surface { background: #fff; box-shadow: 0 1px 2px #00437012, 0 8px 24px -8px #00437022, 0 24px 48px -24px #6c56fc22; }
+  .float { box-shadow: 0 2px 4px #00437014, 0 16px 32px -12px #0098f23a, 0 40px 64px -32px #6c56fc40; }
+  .btn { transition: transform .35s var(--spring), opacity .2s; will-change: transform; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn:active { transform: translateY(0) scale(.98); }
+  .btn:focus-visible, .link:focus-visible { outline: 2px solid var(--sky); outline-offset: 3px; }
+  .card { transition: transform .35s var(--spring); }
+  .card:hover { transform: translateY(-3px); }
+  .link { transition: opacity .2s; } .link:hover { opacity: .65; } .link:active { opacity: .45; }
+  .eyebrow { font-weight: 600; font-size: 12px; letter-spacing: 0; }
+  .tint-sky { background: var(--sky-t); } .tint-pink { background: var(--pink-t); } .tint-violet { background: var(--violet-t); }
+  @media (prefers-reduced-motion: reduce) { .btn, .card { transition: none; } }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<header class="hero-bg relative overflow-hidden grain">
+  <div class="relative max-w-6xl mx-auto px-5 md:px-8 pt-5 pb-14 lg:pb-24">
+    <div class="surface rounded-2xl px-4 py-3 flex items-center justify-between">
+      <a href="#" class="link flex items-center gap-2 font-display font-bold text-lg">
+        <span class="w-6 h-6 rounded-md bg-ink text-white grid place-items-center text-xs">A</span> Acctual
+      </a>
+      <button class="link p-2" aria-label="Open menu">
+        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M1 1h18M1 7h18M1 13h18"/></svg>
+      </button>
+    </div>
+
+    <div class="mt-10 lg:mt-16 lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+    <div>
+      <span class="inline-block text-[12px] font-medium px-3 py-1 rounded-full text-white" style="background:var(--navy,#004370)">Used by 5,000+ businesses worldwide</span>
+      <h1 class="mt-5 text-[52px] md:text-7xl lg:text-8xl font-bold">Get paid on time</h1>
+      <p class="mt-4 text-mute text-base lg:text-lg">Send an invoice in seconds. Your clients pay how they want. You get paid direct to your bank account or wallet, with no monthly fee.</p>
+      <a href="#" class="btn mt-6 flex items-center justify-center h-12 lg:inline-flex lg:px-8 rounded-xl bg-ink text-white font-semibold text-base">Send my first invoice</a>
+
+      <div class="mt-5 flex flex-col sm:flex-row gap-2">
+        <div class="surface rounded-xl px-4 py-2.5 flex items-center gap-3 text-sm font-medium">
+          <span class="w-5 h-5 rounded-full tint-sky grid place-items-center text-sky text-[10px]">▭</span>
+          Cards <span class="text-mute font-normal">2.7% + 0.3¢</span>
+        </div>
+        <div class="surface rounded-xl px-4 py-2.5 flex items-center gap-3 text-sm font-medium">
+          <span class="w-5 h-5 rounded-full tint-violet grid place-items-center text-violet text-[10px]">⌂</span>
+          Bank transfer <span class="text-mute font-normal">1%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 lg:mt-0 relative rounded-2xl overflow-hidden float">
+      <img src="https://placehold.co/600x420/dfe9f3/004370?text=Invoice+Preview" alt="Invoice preview" class="w-full block">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+      <div class="absolute inset-0 bg-sky mix-blend-multiply opacity-20"></div>
+    </div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-5 md:px-8">
+
+  <!-- Logos -->
+  <section class="py-10 text-center">
+    <p class="text-sm text-mute">Used by 5,000+ businesses &amp; freelancers</p>
+    <div class="mt-5 font-display font-bold text-2xl tracking-[0.2em] text-ink/20">UNDERSTRUCK</div>
+  </section>
+
+  <!-- Testimonial 1 -->
+  <section class="surface rounded-2xl p-6 md:p-10 text-center max-w-3xl mx-auto">
+    <div class="text-[#f5a623] tracking-[0.2em] text-lg" aria-label="5 stars">★★★★★</div>
+    <blockquote class="mt-3 font-display text-[22px] md:text-3xl font-semibold leading-tight">“Acctual makes invoices so easy. One click and 30 minutes later we get paid!”</blockquote>
+    <p class="mt-4 text-[12px] italic text-mute">Marcel Berger, Founder of Berger Studio</p>
+  </section>
+
+  <!-- Who is this for -->
+  <section class="py-16">
+    <p class="eyebrow text-sky">Who is this for?</p>
+    <h2 class="mt-3 text-[32px] md:text-5xl font-bold">We designed an invoice that works harder for your business</h2>
+    <ul class="mt-8 grid gap-3 md:grid-cols-2 lg:grid-cols-3 md:gap-5">
+      <li class="card surface rounded-2xl p-5">
+        <div class="flex items-center gap-2 font-semibold text-base"><span class="w-7 h-7 rounded-lg tint-sky text-sky grid place-items-center">◔</span>Freelancers</div>
+        <p class="mt-2 text-base text-mute">Make more profit on every project and get paid faster with automated nudges and no subscription fees.</p>
+      </li>
+      <li class="card surface rounded-2xl p-5">
+        <div class="flex items-center gap-2 font-semibold text-base"><span class="w-7 h-7 rounded-lg tint-pink text-pink grid place-items-center">◆</span>Agencies</div>
+        <p class="mt-2 text-base text-mute">Reclaim billable hours and shift your team’s focus from admin to growth with our accounting sync.</p>
+      </li>
+      <li class="card surface rounded-2xl p-5">
+        <div class="flex items-center gap-2 font-semibold text-base"><span class="w-7 h-7 rounded-lg tint-violet text-violet grid place-items-center">✦</span>Consultants</div>
+        <p class="mt-2 text-base text-mute">Target high ticket clients thanks to improved cash flow and a professional payment experience.</p>
+      </li>
+      <li class="card surface rounded-2xl p-5">
+        <div class="flex items-center gap-2 font-semibold text-base"><span class="w-7 h-7 rounded-lg tint-sky text-sky grid place-items-center">▣</span>Contractors</div>
+        <p class="mt-2 text-base text-mute">Get paid on the job and book bigger projects with increased working capital from our fast payments.</p>
+      </li>
+      <li class="card surface rounded-2xl p-5">
+        <div class="flex items-center gap-2 font-semibold text-base"><span class="w-7 h-7 rounded-lg tint-pink text-pink grid place-items-center">◉</span>eCommerce</div>
+        <p class="mt-2 text-base text-mute">Fund your next inventory run free from frozen capital worries thanks to direct bank payments.</p>
+      </li>
+      <li class="card surface rounded-2xl p-5">
+        <div class="flex items-center gap-2 font-semibold text-base"><span class="w-7 h-7 rounded-lg tint-violet text-violet grid place-items-center">◍</span>Cross border</div>
+        <p class="mt-2 text-base text-mute">Reach new markets and win global contracts with a faster strategy to capture local payments.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Problems -->
+  <section class="pb-16">
+    <h2 class="text-[32px] md:text-5xl font-bold">Accounting platforms are a slow, expensive way to invoice your clients</h2>
+    <div class="mt-8 grid gap-8 md:grid-cols-3">
+      <article>
+        <p class="eyebrow text-sky">Slow</p>
+        <p class="mt-2 text-base text-mute">Your clients make more payment methods — but you need to send funds to your bank account or wallet.</p>
+        <div class="mt-4 h-40 w-full rounded-2xl tint-sky" aria-hidden="true"></div>
+      </article>
+      <article>
+        <p class="eyebrow text-pink">Expensive</p>
+        <p class="mt-2 text-base text-mute">You pay a monthly subscription for bloated accounting features that you don’t need, plus extra card fees on top.</p>
+        <div class="mt-4 h-40 w-full rounded-2xl tint-pink" aria-hidden="true"></div>
+      </article>
+      <article>
+        <p class="eyebrow text-violet">Confusing</p>
+        <p class="mt-2 text-base text-mute">You need a simple invoice solution — not a forced migration to another complex, expensive accounting platform.</p>
+        <div class="mt-4 h-40 w-full rounded-2xl tint-violet" aria-hidden="true"></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Same day payments -->
+  <section class="pb-16">
+    <h2 class="text-[32px] md:text-5xl font-bold">Same day payments. No subscription.</h2>
+    <p class="mt-4 text-base text-mute">Acctual offers more payment methods and no monthly fees. Generate a recurring invoice and get paid directly to your bank account or wallet.</p>
+    <ul class="mt-8 grid gap-3 md:grid-cols-2 lg:grid-cols-3 md:gap-5">
+      <li class="card surface rounded-2xl px-5 py-5 text-base font-medium">The industry’s lowest transfer fees</li>
+      <li class="card surface rounded-2xl px-5 py-5 text-base font-medium">Payment via card, bank transfer or stablecoin</li>
+      <li class="card surface rounded-2xl px-5 py-5 text-base font-medium">Same day payments in your favorite currency</li>
+      <li class="card surface rounded-2xl px-5 py-5 text-base font-medium">Direct payment to your bank account or wallet</li>
+      <li class="card surface rounded-2xl px-5 py-5 text-base font-medium">Unlimited invoices and no subscription fees</li>
+      <li class="card surface rounded-2xl px-5 py-5 text-base font-medium">Invoices sync with Xero and Quickbooks</li>
+    </ul>
+    <a href="#" class="btn mt-8 flex items-center justify-center h-12 md:inline-flex md:px-8 rounded-xl bg-ink text-white font-semibold text-base">Create an invoice</a>
+  </section>
+
+  <!-- Faster invoice experience -->
+  <section class="pb-16">
+    <h2 class="text-[32px] md:text-5xl font-bold">We designed a faster invoice experience with lower fees</h2>
+    <h3 class="mt-10 text-2xl md:text-3xl font-bold">Create a beautiful invoice without hiring a professional designer</h3>
+    <p class="mt-4 text-base text-mute">Your clients deserve a great payment experience. Acctual generates stunning, minimalist invoices that include your logo and client details in a few clicks. You can send as many invoices as you like. We’ll never charge a monthly subscription.</p>
+
+    <figure class="mt-8 surface rounded-2xl p-6">
+      <div class="text-[#f5a623] tracking-[0.2em]" aria-label="5 stars">★★★★★</div>
+      <blockquote class="mt-3 text-base">“I used to design each invoice in Figma. Now I can share a beautiful invoice with one click in Acctual.”</blockquote>
+      <figcaption class="mt-3 text-[12px] italic text-mute">Harry Hanrahan, Designer</figcaption>
+    </figure>
+
+    <h3 class="mt-14 text-2xl md:text-3xl font-bold">Send one payment link that offers every method and lowers your fees</h3>
+    <p class="mt-4 text-base text-mute">You don’t need to juggle payment platforms. Our invoices include a secure link that gives your clients the freedom to pay with credit cards, bank transfers (ACH/SEPA) or stablecoins (USDC/USDT). Fees on bank transfers and stablecoins are only 1%.</p>
+
+    <div class="mt-8 relative rounded-2xl overflow-hidden float max-w-3xl mx-auto">
+      <img src="https://placehold.co/600x360/f7fafc/004370?text=Payment+Link" alt="Payment link preview" class="w-full block">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+      <div class="absolute inset-0 bg-violet mix-blend-multiply opacity-20"></div>
+    </div>
+
+    <figure class="mt-8 surface rounded-2xl p-6">
+      <div class="text-[#f5a623] tracking-[0.2em]" aria-label="5 stars">★★★★★</div>
+      <blockquote class="mt-3 text-base">“Our workflow is faster and more accurate thanks to Acctual. Now, even if customers switch from ACH to crypto.”</blockquote>
+      <figcaption class="mt-3 text-[12px] italic text-mute">Sam Miller, Founder of Kodo</figcaption>
+    </figure>
+  </section>
+
+</main>
+</body>
+</html>
