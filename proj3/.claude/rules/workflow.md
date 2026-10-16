@@ -11,6 +11,14 @@ Run this loop after every visual change. Do not report a page as done after a si
 5. **Re-screenshot and re-compare.** Do at least 2 comparison rounds. Stop only when no visible differences remain or the user says to stop.
 6. **Check the console.** Read the console log after navigation. Fix any errors. The Tailwind CDN warning is expected and can be ignored.
 
+## Where subagents fit
+
+1. **Before building:** if the task needs outside facts (a library, an API, a technique to compare), run `researcher` first.
+2. **During building:** run the loop above.
+3. **After the loop passes:** run `reviewer` on the diff and fix any Critical issues and Warnings it reports.
+4. **If you changed logic (JS):** run `qa`. For static HTML/CSS there is nothing to unit test, so the screenshot loop is the verification and `qa` is skipped.
+5. **Only then** report the page as done.
+
 ## Checking a scrolled state (sticky headers, scroll effects)
 
 - `scroll-behavior: smooth` makes `window.scrollTo` asynchronous, so `scrollY` reads 0 right after the call. Set `document.documentElement.style.scrollBehavior = 'auto'` and wait ~300ms before taking the screenshot.

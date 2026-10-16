@@ -2,13 +2,22 @@
 
 Detailed rules live in `.claude/rules/`; this file holds the project-level essentials:
 
-- `.claude/rules/workflow.md`: the screenshot → compare → fix loop (server, Playwright screenshots, widths, scroll checks).
+- `.claude/rules/workflow.md`: the screenshot → compare → fix loop (server, Playwright screenshots, widths, scroll checks) and where subagents fit around it.
 - `.claude/rules/technical-defaults.md`: Tailwind CDN, placeholders, responsive defaults, typography, motion, depth.
 - `.claude/rules/design-rules.md`: matching a reference and how to phrase comparisons.
 
 ## Always Do Last
 
 - **Invoke the `tell-me-time` agent** at the very end of every response, after all work for the prompt is finished, and show its one-line output (`Hello Miguel, the current time is HH:MM:SS WET|WEST (Lisbon).`) as the final line. Do this for every prompt, including questions and small edits.
+
+## Subagents
+
+Project subagents live in `.claude/agents/`. When to run each one is in `workflow.md` ("Where subagents fit"):
+
+- `researcher` (read-only): investigate a topic, gather docs or API facts, or compare libraries/approaches before building. Returns a sourced report.
+- `reviewer`: review the `git diff` for quality, security and maintainability. Run it after finishing a chunk of code changes, before reporting done.
+- `qa`: write and run tests, then report pass/fail. It never fixes the code under test. For a static `index.html` with no unit-testable logic, rely on the screenshot loop in `workflow.md` instead.
+- `tell-me-time`: see "Always Do Last" above.
 
 ## Always Do First
 
